@@ -1,0 +1,23 @@
+{
+    "name": "hevelop/module-cache-invalidate",
+    "description": "",
+    "type": "magento2-module",
+    "license": [
+        "Commercial"
+    ],
+    "require": {
+        "magento/framework": "101.0.*",
+        "magento/module-cache-invalidate": "100.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hevelop\\CacheInvalidate\\": ""
+        }
+    }
+}
